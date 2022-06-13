@@ -21,7 +21,8 @@ class MainActivity : AppCompatActivity() {
            val b = valor2.text.toString().toInt()
             val suma = a+b;
             //resultado.text = "La suma es :${suma.toString()}";
-        resultado.text = Editable.Factory.getInstance().newEditable("${suma.toString()}")
+        //resultado.text = Editable.Factory.getInstance().newEditable("${suma.toString()}")
+        resultado.setText(suma);
         };
     }
 
